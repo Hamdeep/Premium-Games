@@ -28,10 +28,11 @@ const Nav = () => {
     });
   };
   return (
+
     <StyledNav variants={fadeIn} initial="hidden" animate="show">
       <Logo onClick={emptySearchHandler}>
         <img src={logo} alt="logo" />
-        <h2>PremGames</h2>
+        <h2>Prem Games</h2>
       </Logo>
       <form>
         <input type="text" value={textInput} onChange={changeHandler} />
