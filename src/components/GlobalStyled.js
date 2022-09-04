@@ -8,7 +8,7 @@ const GlobalStyled = createGlobalStyle`
   }
   html{
       &::-webkit-scrollbar{
-          width: 0.5rem;
+          width: 0.6rem;
 
       }
       &::-webkit-scrollbar-thumb{
@@ -33,7 +33,7 @@ const GlobalStyled = createGlobalStyle`
           padding: 1rem 0 0.5rem 0;
       }
       p{
-          font-size: 1rem;
+          font-size: 0.99rem;
           color: #696969;
           padding: 0.5rem 0;
       }
