@@ -12,7 +12,7 @@ export const fadeIn = {
 export const popup = {
   hidden: {
     opacity: 0,
-    scale: 0.5,
+    scale: 0.4,
   },
   show: {
     opacity: 1,
